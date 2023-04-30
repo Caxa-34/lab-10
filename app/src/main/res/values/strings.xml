@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RasterImages</string>
+    <string name="Copy">Copy</string>
+    <string name="Invert">Invert</string>
+    <string name="Gray">ToGray</string>
+    <string name="WhiteBlack">ToWhiteAndBlack</string>
+    <string name="light">SetLight</string>
+    <string name="Horizontal">MirrorX</string>
+    <string name="Vertical">MirrorY</string>
+    <string name="Contrast">Contrast</string>
+    <string name="Min">min</string>
+    <string name="Max">max</string>
+</resources>
