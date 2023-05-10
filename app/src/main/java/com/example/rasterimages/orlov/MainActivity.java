@@ -110,7 +110,8 @@ public class MainActivity extends AppCompatActivity {
         for (int y = 0; y < height; y++)
             for (int x = 0; x < width; x++) {
                 int cOld = bmp1.getPixel(x, y);
-                int cNew = Color.argb(255, 255 - Color.red(cOld), 255 - Color.green(cOld), 255 - Color.blue(cOld));
+                int cNew = Color.argb(255, 255 - Color.red(cOld),
+                        255 - Color.green(cOld), 255 - Color.blue(cOld));
                 bmp2.setPixel(x, y, cNew);
             }
         Toast.makeText(this, "Done!", Toast.LENGTH_SHORT).show();
